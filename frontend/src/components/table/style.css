@@ -1,0 +1,20 @@
+.ant-table {
+    background-color: #f9f9f9; /* Измените фон таблицы */
+  }
+  
+.ant-table-thead > tr > th {
+    background-color: #4CAF50; /* Цвет фона заголовков */
+    color: white; /* Цвет текста заголовков */
+  }
+  
+.ant-table-tbody > tr:hover {
+    background-color: #e0f7fa; /* Цвет строки при наведении */
+  }
+  
+.ant-table-tbody > tr > td {
+    color: #333; /* Цвет текста ячеек */
+  }
+  
+.ant-table-tbody > tr > td.ant-table-cell-last {
+    border-bottom: 2px solid #4CAF50; /* Цвет нижней границы последней ячейки */
+  }
